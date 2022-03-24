@@ -1,11 +1,8 @@
-# Name of the project
-PROJECT_NAME = SalaryAndSavingManagement
+#Targetname : Dependent target names
+#<TAB>command
 
-main.out: main_program.c src/salaryandsavingmanage.c
-	gcc -Iinc ./src/salaryandsavingmanage.c ./main_program.c -o main.out
+Build:
+	gcc main_program.c salaryandsavingmanage.c ../unity/unity.c -I../unity
 
-run : main.out
-	./main_program.out
-
-clean: 
-	rm *.out
+Run:
+	./a.out
