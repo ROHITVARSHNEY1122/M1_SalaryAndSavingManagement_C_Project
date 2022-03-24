@@ -1,8 +1,8 @@
-#Targetname : Dependent target names
-#<TAB>command
+main.exe: main.c src/foo.c
+	gcc -Iinc ./src/salaryandsavingmanage.c ./main_program.c -o main.out
 
-Build:
-	gcc main_program.c ..src/salaryandsavingmanage.c ../unity/unity.c -I../unity
+run : main.out
+	./main.out
 
-Run:
-	./a.out
+clean: 
+	rm *.out
