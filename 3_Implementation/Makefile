@@ -1,4 +1,4 @@
-main.exe: main.c src/foo.c
+main.out: main_program.c src/salaryandsavingmanage.c
 	gcc -Iinc ./src/salaryandsavingmanage.c ./main_program.c -o main.out
 
 run : main.out
