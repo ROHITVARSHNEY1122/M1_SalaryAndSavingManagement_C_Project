@@ -2,7 +2,7 @@
 #<TAB>command
 
 Build:
-	gcc main_program.c salaryandsavingmanage.c ../unity/unity.c -I../unity
+	gcc main_program.c ..src/salaryandsavingmanage.c ../unity/unity.c -I../unity
 
 Run:
 	./a.out
