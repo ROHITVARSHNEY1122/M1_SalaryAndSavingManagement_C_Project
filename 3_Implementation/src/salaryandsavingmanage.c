@@ -19,7 +19,7 @@ void design()
 void rawdata()
 {
     printf("Please Enter Your Name \t");
-    fgets(NameOfPerson,m,stdin);
+    fgets(NameOfPerson, m, stdin);
 
     printf("\n AMOUNT PAID FOR FOOD ITEMS \t\t");
     scanf("%f", &Rashion);
@@ -59,13 +59,13 @@ void rawdata()
 void sense()
 {
 
-    FinalDebitAmount = Rashion + ElectronicGadgets + Trip + Car + PaidBills + Water + Study + Clothing ;
+    FinalDebitAmount = Rashion + ElectronicGadgets + Trip + Car + PaidBills + Water + Study + Clothing;
     FinalCreditAmount = PersonSal + Multi;
     FinalAmount = FinalCreditAmount - FinalDebitAmount;
 }
 
 /**
- * @brief  Show fuction will give the Analysis of the Total Income and Total Expenditure 
+ * @brief  Show fuction will give the Analysis of the Total Income and Total Expenditure
  *
  */
 
@@ -86,7 +86,7 @@ void show()
     printf("\nAMOUNT PAID FOR STUDY\t\t\tRs% .2f", Study);
     printf("\nAMOUNT PAID FOR WATER BILLS\t\tRs% .2f", Water);
     printf("\nAMOUNT PAID FOR ELECTRONICS ITEM\tRs% .2f", ElectronicGadgets);
-    
+
     printf("\nAMOUNT PAID FOR TOURISM   \t\tRs% .2f", Trip);
     printf("\n AMOUNT PAID FOR VEHICLE\t\tRs% .2f", Car);
     printf("\n  AMOUNT PAID FOR OTHERS\t\tRs% .2f", PaidBills);
@@ -111,101 +111,169 @@ void show()
     printf("\n");
     printf("\n");
     design();
-
 }
-void savepercent(){
-      SavingPercentage = (FinalAmount / FinalCreditAmount)*100;
-      printf("\n SAVING PERCENTAGE = %.2f",SavingPercentage);
-      if (SavingPercentage<=0)
-      {
-          printf("\nPLEASE DONT EXPEND MORE BECAUSE YOU HAVE NO SAVING");
-      }
-      else if (SavingPercentage>=0 && SavingPercentage<=10)
-      {
-          printf("\n VERY LESS SAVING ! EARN MORE ! EXPEND LESS");
-      }
-      else if (SavingPercentage>=10 && SavingPercentage<=20)
-      {
-          printf("\n YOU HAVE LESS SAVING ! EARN MORE ! EXPEND LESS");
-      }
-      else if (SavingPercentage>=20 && SavingPercentage<=30)
-      {
-          printf("\n  LESS SAVING ! EARN MONEY  MORE ! EXPEND LITTLE LESS");
-          }
-      else if (SavingPercentage>=30 && SavingPercentage<=40)
-      {
-          printf("\n  SAVING IS QUITE GOOD ! EARN MONEY  MORE ! EXPEND LITTLE LESS");
-      }
-      else if (SavingPercentage>=40 && SavingPercentage<=50)
-      {
-          printf("\n  SAVING IS QUITE ENOUGH GOOD ! EARN MONEY  MORE AND MORE ! EXPEND LITTLE LESS");
-      }
-      else if (SavingPercentage>=50 && SavingPercentage<=60)
-      {
-          printf("\n  HURRAY SAVING IS  GOOD !");
-      }
-      else if (SavingPercentage>=60 && SavingPercentage<=70)
-      {
-          printf("\n  YOU ARE SAVING 60-70 PERCENT ! KEEP IT UP");
-      }
-      else if (SavingPercentage>=70 && SavingPercentage<=80)
-      {
-          printf("\n  SAVING IS BETTER NOW ! ");
-          }
+void savepercent()
+{
+    SavingPercentage = (FinalAmount / FinalCreditAmount) * 100;
+    printf("\n SAVING PERCENTAGE = %.2f", SavingPercentage);
+    if (SavingPercentage <= 0)
+    {
+        printf("\nPLEASE DONT EXPEND MORE BECAUSE YOU HAVE NO SAVING");
+    }
+    else if (SavingPercentage >= 0 && SavingPercentage <= 10)
+    {
+        printf("\n VERY LESS SAVING ! EARN MORE ! EXPEND LESS");
+    }
+    else if (SavingPercentage >= 10 && SavingPercentage <= 20)
+    {
+        printf("\n YOU HAVE LESS SAVING ! EARN MORE ! EXPEND LESS");
+    }
+    else if (SavingPercentage >= 20 && SavingPercentage <= 30)
+    {
+        printf("\n  LESS SAVING ! EARN MONEY  MORE ! EXPEND LITTLE LESS");
+    }
+    else if (SavingPercentage >= 30 && SavingPercentage <= 40)
+    {
+        printf("\n  SAVING IS QUITE GOOD ! EARN MONEY  MORE ! EXPEND LITTLE LESS");
+    }
+    else if (SavingPercentage >= 40 && SavingPercentage <= 50)
+    {
+        printf("\n  SAVING IS QUITE ENOUGH GOOD ! EARN MONEY  MORE AND MORE ! EXPEND LITTLE LESS");
+    }
+    else if (SavingPercentage >= 50 && SavingPercentage <= 60)
+    {
+        printf("\n  HURRAY SAVING IS  GOOD !");
+    }
+    else if (SavingPercentage >= 60 && SavingPercentage <= 70)
+    {
+        printf("\n  YOU ARE SAVING 60-70 PERCENT ! KEEP IT UP");
+    }
+    else if (SavingPercentage >= 70 && SavingPercentage <= 80)
+    {
+        printf("\n  SAVING IS BETTER NOW ! ");
+    }
 
-      else if (SavingPercentage>=80 && SavingPercentage<=90)
-      {
-          printf("\n  SAVING IS GOING BEST NOW ! ");
-      }
-      else 
-      printf("\n WOW NICE ! YOU HAVE COMPLETE GREAT SAVINGS ! ENJOY LIFE ");
-      
-      
+    else if (SavingPercentage >= 80 && SavingPercentage <= 90)
+    {
+        printf("\n  SAVING IS GOING BEST NOW ! ");
+    }
+    else
+        printf("\n WOW NICE ! YOU HAVE COMPLETE GREAT SAVINGS ! ENJOY LIFE ");
 }
-void expensepercent(){
-      ExpensePercentage = (FinalDebitAmount / FinalCreditAmount)*100;
-      printf("\n EXPENSE PERCENTAGE = %.2f",ExpensePercentage);
-       if (ExpensePercentage<=0)
-      {
-          printf("\nPLEASE  EXPEND MORE ");
-      }
-      else if (ExpensePercentage>=0 && ExpensePercentage<=10)
-      {
-          printf("\n NICE EXPENDITURE ! EARN MORE ! EXPEND MORE");
-      }
-      else if (ExpensePercentage>=10 && ExpensePercentage<=20)
-      {
-          printf("\n EXPENDITURE IS LITTLE LESS OF YOU");
-      }
-      else if (ExpensePercentage>=20 && ExpensePercentage<=30)
-      {
-          printf("\n EXPENDITURE IS NOW ALSO LITTLE LESS OF YOU");
-      }
-      else if (ExpensePercentage>=30 && ExpensePercentage<=40)
-      {
-          printf("\n YOU SPEND BEST NOW IN RANGE OF 30-40 PERCENT");
-      }
-      else if (ExpensePercentage>=40 && ExpensePercentage<=50)
-      {
-          printf("\n OHH! EXPENDITURE GOING ABOVE 40 PERCENT");
-      }
-      else if (ExpensePercentage>=50 && ExpensePercentage<=60)
-      {
-          printf("\n OHH! EXPENDITURE GOING ABOVE 50 PERCENT");
-      }
-      else if (ExpensePercentage>=60 && ExpensePercentage<=70)
-      {
-          printf("\n OHH! EXPENDITURE GOING ABOVE 60 PERCENT");
-      }
-      else if (ExpensePercentage>=70 && ExpensePercentage<=80)
-      {
-          printf("\n OHH! EXPENDITURE GOING ABOVE 70 PERCENT");
-      }
-      else if (ExpensePercentage>=80 && ExpensePercentage<=90)
-      {
-          printf("\n OHH! EXPENDITURE GOING ABOVE 80 PERCENT, STOP EXPENDITURE NOW TO MAKE SAVINGS");
-      }
-      else 
-      printf("\n PLEASE DONT EXPEND MORE BECAUSE YOU HAVE LESS THAN 10 PERCENT  SAVING NOW  ");
-      design();
+void expensepercent()
+{
+    ExpensePercentage = (FinalDebitAmount / FinalCreditAmount) * 100;
+    printf("\n EXPENSE PERCENTAGE = %.2f", ExpensePercentage);
+    if (ExpensePercentage <= 0)
+    {
+        printf("\nPLEASE  EXPEND MORE ");
+    }
+    else if (ExpensePercentage >= 0 && ExpensePercentage <= 10)
+    {
+        printf("\n NICE EXPENDITURE ! EARN MORE ! EXPEND MORE");
+    }
+    else if (ExpensePercentage >= 10 && ExpensePercentage <= 20)
+    {
+        printf("\n EXPENDITURE IS LITTLE LESS OF YOU");
+    }
+    else if (ExpensePercentage >= 20 && ExpensePercentage <= 30)
+    {
+        printf("\n EXPENDITURE IS NOW ALSO LITTLE LESS OF YOU");
+    }
+    else if (ExpensePercentage >= 30 && ExpensePercentage <= 40)
+    {
+        printf("\n YOU SPEND BEST NOW IN RANGE OF 30-40 PERCENT");
+    }
+    else if (ExpensePercentage >= 40 && ExpensePercentage <= 50)
+    {
+        printf("\n OHH! EXPENDITURE GOING ABOVE 40 PERCENT");
+    }
+    else if (ExpensePercentage >= 50 && ExpensePercentage <= 60)
+    {
+        printf("\n OHH! EXPENDITURE GOING ABOVE 50 PERCENT");
+    }
+    else if (ExpensePercentage >= 60 && ExpensePercentage <= 70)
+    {
+        printf("\n OHH! EXPENDITURE GOING ABOVE 60 PERCENT");
+    }
+    else if (ExpensePercentage >= 70 && ExpensePercentage <= 80)
+    {
+        printf("\n OHH! EXPENDITURE GOING ABOVE 70 PERCENT");
+    }
+    else if (ExpensePercentage >= 80 && ExpensePercentage <= 90)
+    {
+        printf("\n OHH! EXPENDITURE GOING ABOVE 80 PERCENT, STOP EXPENDITURE NOW TO MAKE SAVINGS");
+    }
+    else
+        printf("\n PLEASE DONT EXPEND MORE BECAUSE YOU HAVE LESS THAN 10 PERCENT  SAVING NOW  ");
+    design();
+}
+void bonus()
+{
+    if (ExpensePercentage < 30 && ExpensePercentage >= 0)
+    {
+        printf("\n GIVE HIM BONUS OF 20 PERCENT");
+    }
+
+    if (ExpensePercentage <= 50 && ExpensePercentage >= 30)
+    {
+
+        printf("\n GIVE HIM BONUS OF 10 PERCENT");
+    }
+    else if (ExpensePercentage > 50)
+    {
+
+        printf("\n NO BONUS");
+    }
+}
+void penalty()
+{
+    if (ExpensePercentage < 30 && ExpensePercentage >= 0)
+    {
+        printf("\n NO PENALTY");
+    }
+
+    if (ExpensePercentage <= 50 && ExpensePercentage >= 30)
+    {
+        printf("\n  PENALTY OF 10 PERCENT");
+    }
+
+    else if (ExpensePercentage > 50)
+    {
+        printf("\n PENALTY OF 20 PERCENT");
+    }
+}
+void perks()
+{
+    if (ExpensePercentage < 30 && ExpensePercentage >= 0)
+    {
+        printf("\n  PERKS SHOULD BE PROVIDED TO YOU");
+    }
+
+    if (ExpensePercentage <= 50 && ExpensePercentage >= 30)
+    {
+        printf("\n  PERKS OF 10 PERCENT IS FOR YOU");
+    }
+
+    else if (ExpensePercentage > 50)
+    {
+        printf("\n  NO PERKS FOR YOU");
+    }
+}
+void allowances()
+{
+    if (ExpensePercentage < 30 && ExpensePercentage >= 0)
+    {
+        printf("\n CERTAIN ALLOWANCE ARE NOW FOR YOU ");
+    }
+
+    if (ExpensePercentage <= 50 && ExpensePercentage >= 30)
+    {
+        printf(" \n FOOD ALLOWANCE ONLY FOR YOU");
+    }
+
+    else if (ExpensePercentage > 50)
+    {
+        printf("\n NO ALLOWANCE FOR YOU");
+    }
 }
