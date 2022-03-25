@@ -20,7 +20,7 @@ float Car;
 float PaidBills;
 float PersonSal;
 float Multi;
-int j,n ;
+int j, n;
 float FinalCreditAmount;
 float FinalDebitAmount;
 float FinalAmount;
@@ -34,4 +34,8 @@ void design();
 void sense();
 void savepercent();
 void expensepercent();
+void bonus();
+void penalty();
+void perks();
+void allowances();
 #endif
