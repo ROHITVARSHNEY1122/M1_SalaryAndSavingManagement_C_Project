@@ -14,11 +14,15 @@ int main()
    sense();
    savepercent();
    expensepercent();
+   bonus();
+   penalty();
+   perks();
+   allowances();
    /**
     * @brief Just do have a quick calculate over salary amount debit , credit and saving amount information
     *
     */
-   system("cls");
+   
    show();
    /**
     * @brief HERE MAINLY show WILL GIVE OUTPUT OF WHOLE ANALYSIS
