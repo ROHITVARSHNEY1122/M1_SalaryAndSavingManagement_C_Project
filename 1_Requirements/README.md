@@ -12,6 +12,9 @@
 ### Overview
 * This allows users to include multi-income source such as income from trade or other varied income source which generates awareness to have multiple source of income for better finalcial independence.
 * Overall the application is hassle free way to keep track of the money that you earn and will help you make effecient saving and forcast future expenses and save accordingly with bonus , perks etc .
+## SWOT 
+![STRENGHTH WEAKNESS THREATS OPPURTUNITIES](https://user-images.githubusercontent.com/101577287/160235587-80b1a86d-8201-49d1-a2df-b89ea3c76740.png)
+
 
 ### Existing System
 * Existing system have complex and incomplete approach to this problem . In previous systems, users had to manage and maintain the Excel sheets,
