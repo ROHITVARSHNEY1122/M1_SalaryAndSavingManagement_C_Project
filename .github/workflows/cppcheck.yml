@@ -1,4 +1,5 @@
-name: Analysis
+
+name: cppcheck-action
 
 on:
   push:
