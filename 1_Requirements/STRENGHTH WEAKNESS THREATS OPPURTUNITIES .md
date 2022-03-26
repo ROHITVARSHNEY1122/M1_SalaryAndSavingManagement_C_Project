@@ -1,0 +1,2 @@
+![STRENGHTH WEAKNESS THREATS OPPURTUNITIES](https://user-images.githubusercontent.com/101577287/160235529-527a069b-91fc-4437-8011-be28e63a0c25.png)
+
