@@ -1,6 +1,9 @@
 # M1_SalaryAndSavingManagement_C_Project
 This is my project repository on Salary and Saving Management in C programming . It contains all documentation , source file , test cases and much more .
 [![cppcheck-action](https://github.com/ROHITVARSHNEY1122/M1_SalaryAndSavingManagement_C_Project/actions/workflows/cppcheck.yml/badge.svg)](https://github.com/ROHITVARSHNEY1122/M1_SalaryAndSavingManagement_C_Project/actions/workflows/cppcheck.yml)
+
+[![Makefile](https://github.com/ROHITVARSHNEY1122/M1_SalaryAndSavingManagement_C_Project/actions/workflows/Makefile.yml/badge.svg)](https://github.com/ROHITVARSHNEY1122/M1_SalaryAndSavingManagement_C_Project/actions/workflows/Makefile.yml)
+
 [![Build CI - Linux](https://github.com/ROHITVARSHNEY1122/M1_SalaryAndSavingManagement_C_Project/actions/workflows/c-build.yml/badge.svg)](https://github.com/ROHITVARSHNEY1122/M1_SalaryAndSavingManagement_C_Project/actions/workflows/c-build.yml)
 
 [![Unit Testing - Unity](https://github.com/ROHITVARSHNEY1122/M1_SalaryAndSavingManagement_C_Project/actions/workflows/unit-test.yml/badge.svg)](https://github.com/ROHITVARSHNEY1122/M1_SalaryAndSavingManagement_C_Project/actions/workflows/unit-test.yml)
