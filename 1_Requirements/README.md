@@ -10,7 +10,7 @@
 -  There are many application available in commercial market but this application is user-friendly and can be easy managed by uses to keep track of their savings after their expenses being deducted from the various sources of income of the user and tells even about  perks , bonus , penalties and lot more .  
 
 ### Overview
--  This allows users to include multi-income source such as income from trade or other varied income source which generates awareness to have multiple source of income for better finalcial independence.
+-   This allows users to include multi-income source such as income from trade or other varied income source which generates awareness to have multiple source of income for better finalcial independence.
 -  Overall the application is hassle free way to keep track of the money that you earn and will help you make effecient saving and forcast future expenses and save accordingly with bonus , perks etc .
 ## SWOT 
 ![STRENGHTH WEAKNESS THREATS OPPURTUNITIES](https://user-images.githubusercontent.com/101577287/160235587-80b1a86d-8201-49d1-a2df-b89ea3c76740.png)
@@ -33,9 +33,9 @@ CSV etc files for the user expenses be it daily or monthly.
 ## Defining Our System
 -  SALARY AND SAVING MANAGEMENT have few inbuilt features like:
 -  Create a new user record of income
--  Read a User record
+-   Read a User record
 -  create the income sources for user
--  view the users Income,Expenses
+-   view the users Income,Expenses
 -  view users Saving
 
 ## Who
@@ -45,7 +45,7 @@ CSV etc files for the user expenses be it daily or monthly.
 -  SALARY AND SAVING MANAGEMENT application  will give the exact saving done by the user after calculated all the incomes and expenses done by the user with perks, bonus etc
 
 ## When
--  When you understand the importance of money management and start to be accountable for your expenses.
+-   When you understand the importance of money management and start to be accountable for your expenses.
 
 ## Where
 -  This can be  used by the user in day to day life where they can track their expenses and incomes generated  monthly .
