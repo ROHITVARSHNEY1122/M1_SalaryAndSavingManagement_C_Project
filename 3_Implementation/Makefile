@@ -13,7 +13,7 @@ TEST_SRC = src/salaryandsavingmanage.c\
 test/main_test.c\
 unity/unity.c\
 
-TEST_OUTPUT = $(BUILD)/Test_$(SALARY AND SAVING MANAGEMENT).out
+TEST_OUTPUT = $(BUILD)/Test_$(SALARYANDSAVINGMANAGEMENT).out
 
 # All include folders with header files
 INC	= -Iinc\
