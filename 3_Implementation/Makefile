@@ -19,10 +19,6 @@ TEST_OUTPUT = $(BUILD)/Test_$(SALARYANDSAVINGMANAGEMENT).out
 INC	= -Iinc\
 -Iunity\
 
-#Library Inlcudes
-#INCLUDE_LIBS = 
-INCLUDE_LIBS = -lcunit
-
 # Project Output name
 PROJECT_OUTPUT = $(BUILD)/$(SALARYANDSAVINGMANAGEMENT).out
 
@@ -38,9 +34,6 @@ $(SALARYANDSAVINGMANAGEMENT):all
 all: $(SRC) $(BUILD)
 	gcc $(SRC) $(INC) -o $(PROJECT_OUTPUT).out
 
-# Call `make run` to run the application
-run:$(SALARYANDSAVINGMANAGEMENT)
-	./$(PROJECT_OUTPUT).out
 
 # Document the code using Doxygen
 doc:
@@ -68,9 +61,6 @@ coverage:$(TEST_SRC)
 	./$(TEST_OUTPUT)
 	gcov -a salaryandsavingmanage.c
 
-# Remove all the built files, invoke by `make clean`
-clean:
-	rm -rf $(BUILD) $(DOCUMENTATION_OUTPUT) *.gcda *.gcno *.gcov
 
 # Create new build folder if not present
 $(BUILD):
