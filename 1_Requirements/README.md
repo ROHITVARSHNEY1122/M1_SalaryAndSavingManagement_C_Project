@@ -31,30 +31,30 @@ CSV etc files for the user expenses be it daily or monthly.
 * This will be really helpful for budget planning for users for upcoming months and any event.
 
 ## Defining Our System
-* SALARY AND SAVING MANAGEMENT have few inbuilt features like:
-* Create a new user record of income
-* Read a User record
-* create the income sources for user
-* view the users Income,Expenses
-* view users Saving
+-  SALARY AND SAVING MANAGEMENT have few inbuilt features like:
+-  Create a new user record of income
+-  Read a User record
+-  create the income sources for user
+-  view the users Income,Expenses
+-  view users Saving
 
 ## Who
-* Everyone who wants salary and saving managements perpectives will use this application
+-  Everyone who wants salary and saving managements perpectives will use this application
 
 ## What
-* SALARY AND SAVING MANAGEMENT application  will give the exact saving done by the user after calculated all the incomes and expenses done by the user with perks, bonus etc
+-  SALARY AND SAVING MANAGEMENT application  will give the exact saving done by the user after calculated all the incomes and expenses done by the user with perks, bonus etc
 
 ## When
-* When you understand the importance of money management and start to be accountable for your expenses.
+-  When you understand the importance of money management and start to be accountable for your expenses.
 
 ## Where
-* This can be  used by the user in day to day life where they can track their expenses and incomes generated  monthly .
+-  This can be  used by the user in day to day life where they can track their expenses and incomes generated  monthly .
 
 ## How
-* This is fulfilled in very simple manner here as user need to enter his details like name and futher go on by entering the incomes that he has earned and expenses that he is making to finally go to the conclusion of the saving that he is doing in his day to day life with additional perks , bonus etc
+-  This is fulfilled in very simple manner here as user need to enter his details like name and futher go on by entering the incomes that he has earned and expenses that he is making to finally go to the conclusion of the saving that he is doing in his day to day life with additional perks , bonus etc
 
 # Detail requirements
-## High Level Requirements: 
+## High Level Requirements
 | ID | Description | Category | Status | 
 | ----- | ----- | ------- | ---------|
 | HR001 | User shall be able to add his income | Techincal | IMPLEMENTED | 
@@ -65,7 +65,7 @@ CSV etc files for the user expenses be it daily or monthly.
 | HR006 | User shall be able to view his total expenses| Techincal |  IMPLEMENTED  |
 | HR007 | User shall be able to view his total savingpercentage| Techincal |  IMPLEMENTED  |
 | HR008 | User shall be able to view his total expensepercentage| Techincal |  IMPLEMENTED  |
-## Low level Requirements:
+## Low level Requirements
  
 | ID | Description | HLR ID | Status (Implemented/Future) |
 | ------ | --------- | ------ | ----- |
