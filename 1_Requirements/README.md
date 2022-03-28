@@ -1,7 +1,7 @@
 # Requirements
 ## Introduction
--     Salary and Saving Management is the project application that allows user to have a complete understanding of their salary , expenses , saving etc .    
--     It also tells you about your perks , allowances, savingpercent, expensepercent , bonus in detail . This will help in time saving and salary management in many ways 
+-      Salary and Saving Management is the project application that allows user to have a complete understanding of their salary , expenses , saving etc .    
+-      It also tells you about your perks , allowances, savingpercent, expensepercent , bonus in detail . This will help in time saving and salary management in many ways 
  
 ## Research
 -  This application is researched from various sources then modified into successful working model application.
@@ -17,13 +17,13 @@
 
 
 ### Existing System
-* Existing system have complex and incomplete approach to this problem . In previous systems, users had to manage and maintain the Excel sheets,
+-   Existing system have complex and incomplete approach to this problem . In previous systems, users had to manage and maintain the Excel sheets,
 CSV etc files for the user expenses be it daily or monthly. 
-* In existing, there is no as such complete solution to keep a track of its daily expenditure easily 
+-   In existing, there is no as such complete solution to keep a track of its daily expenditure easily 
 
 ### Features
 -    SALARY AND SAVING MANAGEMENT  Application allows :
--    Name of the person using application 
+-   Name of the person using application 
 -    Income to be added , Food expense , Clothing expense and many more
 -   Will ask for option to confirm if you have Other sources of income 
 -    if yes then u will have to add the income generates. This generates multi - income feature in calculation
