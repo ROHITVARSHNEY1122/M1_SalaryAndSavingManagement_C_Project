@@ -1,17 +1,17 @@
 # Requirements
 ## Introduction
-*   Salary and Saving Management is the project application that allows user to have a complete understanding of their salary , expenses , saving etc .
-*   It also tells you about your perks , allowances, savingpercent, expensepercent , bonus in detail . This will help in time saving and salary management in many ways 
+-  Salary and Saving Management is the project application that allows user to have a complete understanding of their salary , expenses , saving etc .
+-  It also tells you about your perks , allowances, savingpercent, expensepercent , bonus in detail . This will help in time saving and salary management in many ways 
  
 ## Research
-* This application is researched from various sources then modified into successful working model application.
+-  This application is researched from various sources then modified into successful working model application.
 
 ### Benefits
-* There are many application available in commercial market but this application is user-friendly and can be easy managed by uses to keep track of their savings after their expenses being deducted from the various sources of income of the user and tells even about  perks , bonus , penalties and lot more .  
+-  There are many application available in commercial market but this application is user-friendly and can be easy managed by uses to keep track of their savings after their expenses being deducted from the various sources of income of the user and tells even about  perks , bonus , penalties and lot more .  
 
 ### Overview
-* This allows users to include multi-income source such as income from trade or other varied income source which generates awareness to have multiple source of income for better finalcial independence.
-* Overall the application is hassle free way to keep track of the money that you earn and will help you make effecient saving and forcast future expenses and save accordingly with bonus , perks etc .
+-  This allows users to include multi-income source such as income from trade or other varied income source which generates awareness to have multiple source of income for better finalcial independence.
+-  Overall the application is hassle free way to keep track of the money that you earn and will help you make effecient saving and forcast future expenses and save accordingly with bonus , perks etc .
 ## SWOT 
 ![STRENGHTH WEAKNESS THREATS OPPURTUNITIES](https://user-images.githubusercontent.com/101577287/160235587-80b1a86d-8201-49d1-a2df-b89ea3c76740.png)
 
@@ -38,19 +38,19 @@ CSV etc files for the user expenses be it daily or monthly.
 * view the users Income,Expenses
 * view users Saving
 
-## Who:
+## Who
 * Everyone who wants salary and saving managements perpectives will use this application
 
-## What:
+## What
 * SALARY AND SAVING MANAGEMENT application  will give the exact saving done by the user after calculated all the incomes and expenses done by the user with perks, bonus etc
 
-## When:
+## When
 * When you understand the importance of money management and start to be accountable for your expenses.
 
-## Where:
+## Where
 * This can be  used by the user in day to day life where they can track their expenses and incomes generated  monthly .
 
-## How:
+## How
 * This is fulfilled in very simple manner here as user need to enter his details like name and futher go on by entering the incomes that he has earned and expenses that he is making to finally go to the conclusion of the saving that he is doing in his day to day life with additional perks , bonus etc
 
 # Detail requirements
@@ -65,7 +65,7 @@ CSV etc files for the user expenses be it daily or monthly.
 | HR006 | User shall be able to view his total expenses| Techincal |  IMPLEMENTED  |
 | HR007 | User shall be able to view his total savingpercentage| Techincal |  IMPLEMENTED  |
 | HR008 | User shall be able to view his total expensepercentage| Techincal |  IMPLEMENTED  |
-##  Low level Requirements:
+## Low level Requirements:
  
 | ID | Description | HLR ID | Status (Implemented/Future) |
 | ------ | --------- | ------ | ----- |
