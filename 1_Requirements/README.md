@@ -1,13 +1,13 @@
 # Requirements
 ## Introduction
--    Salary and Saving Management is the project application that allows user to have a complete understanding of their salary , expenses , saving etc .    
--    It also tells you about your perks , allowances, savingpercent, expensepercent , bonus in detail . This will help in time saving and salary management in many ways 
+-     Salary and Saving Management is the project application that allows user to have a complete understanding of their salary , expenses , saving etc .    
+-     It also tells you about your perks , allowances, savingpercent, expensepercent , bonus in detail . This will help in time saving and salary management in many ways 
  
 ## Research
 -  This application is researched from various sources then modified into successful working model application.
 
 ### Benefits
--  There are many application available in commercial market but this application is user-friendly and can be easy managed by uses to keep track of their savings after their expenses being deducted from the various sources of income of the user and tells even about  perks , bonus , penalties and lot more .  
+-   There are many application available in commercial market but this application is user-friendly and can be easy managed by uses to keep track of their savings after their expenses being deducted from the various sources of income of the user and tells even about  perks , bonus , penalties and lot more .  
 
 ### Overview
 -   This allows users to include multi-income source such as income from trade or other varied income source which generates awareness to have multiple source of income for better finalcial independence.
@@ -25,10 +25,10 @@ CSV etc files for the user expenses be it daily or monthly.
 -    SALARY AND SAVING MANAGEMENT  Application allows :
 -    Name of the person using application 
 -    Income to be added , Food expense , Clothing expense and many more
--    Will ask for option to confirm if you have Other sources of income 
+-   Will ask for option to confirm if you have Other sources of income 
 -    if yes then u will have to add the income generates. This generates multi - income feature in calculation
 -    With the data given it will show the monthly saving done by the user after balancing the cashflow.
--    This will be really helpful for budget planning for users for upcoming months and any event.
+-   This will be really helpful for budget planning for users for upcoming months and any event.
 
 ## Defining Our System
 -  SALARY AND SAVING MANAGEMENT have few inbuilt features like:
@@ -73,6 +73,6 @@ CSV etc files for the user expenses be it daily or monthly.
 | LR002 | user go with the option of display should be able to view the entries by the users | HR002 |  IMPLEMENTED |
 | LR003 | Limit the users for adding income and expenses in inappropriate manner | HR002 | FUTURE |
 | LR004 | User Id to searches for expenses | HR002 |  FUTURE  |
-| LR005 | User without adding details will not display his details | HR003 |  IMPLEMENTED  |
+
 
 
