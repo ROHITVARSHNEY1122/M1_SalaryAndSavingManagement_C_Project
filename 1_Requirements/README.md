@@ -11,7 +11,7 @@
 
 ### Overview
 -   This allows users to include multi-income source such as income from trade or other varied income source which generates awareness to have multiple source of income for better finalcial independence.
--  Overall the application is hassle free way to keep track of the money that you earn and will help you make effecient saving and forcast future expenses and save accordingly with bonus , perks etc .
+-   Overall the application is hassle free way to keep track of the money that you earn and will help you make effecient saving and forcast future expenses and save accordingly with bonus , perks etc .
 ## SWOT 
 ![STRENGHTH WEAKNESS THREATS OPPURTUNITIES](https://user-images.githubusercontent.com/101577287/160235587-80b1a86d-8201-49d1-a2df-b89ea3c76740.png)
 
@@ -22,13 +22,13 @@ CSV etc files for the user expenses be it daily or monthly.
 * In existing, there is no as such complete solution to keep a track of its daily expenditure easily 
 
 ### Features
-* SALARY AND SAVING MANAGEMENT  Application allows :
-* Name of the person using application 
-* Income to be added , Food expense , Clothing expense and many more
-* Will ask for option to confirm if you have Other sources of income 
-* if yes then u will have to add the income generates. This generates multi - income feature in calculation
--   With the data given it will show the monthly saving done by the user after balancing the cashflow.
-* This will be really helpful for budget planning for users for upcoming months and any event.
+-    SALARY AND SAVING MANAGEMENT  Application allows :
+-    Name of the person using application 
+-    Income to be added , Food expense , Clothing expense and many more
+-    Will ask for option to confirm if you have Other sources of income 
+-    if yes then u will have to add the income generates. This generates multi - income feature in calculation
+-    With the data given it will show the monthly saving done by the user after balancing the cashflow.
+-    This will be really helpful for budget planning for users for upcoming months and any event.
 
 ## Defining Our System
 -  SALARY AND SAVING MANAGEMENT have few inbuilt features like:
@@ -39,7 +39,7 @@ CSV etc files for the user expenses be it daily or monthly.
 -  view users Saving
 
 ## Who
--  Everyone who wants salary and saving managements perpectives will use this application
+-   Everyone who wants salary and saving managements perpectives will use this application
 
 ## What
 -  SALARY AND SAVING MANAGEMENT application  will give the exact saving done by the user after calculated all the incomes and expenses done by the user with perks, bonus etc
@@ -48,12 +48,12 @@ CSV etc files for the user expenses be it daily or monthly.
 -   When you understand the importance of money management and start to be accountable for your expenses.
 
 ## Where
--  This can be  used by the user in day to day life where they can track their expenses and incomes generated  monthly .
+-   This can be  used by the user in day to day life where they can track their expenses and incomes generated  monthly .
 
 ## How
 -  This is fulfilled in very simple manner here as user need to enter his details like name and futher go on by entering the incomes that he has earned and expenses that he is making to finally go to the conclusion of the saving that he is doing in his day to day life with additional perks , bonus etc
 
-# Detail requirements
+## Detail requirements
 ## High Level Requirements
 | ID | Description | Category | Status | 
 | ----- | ----- | ------- | ---------|
