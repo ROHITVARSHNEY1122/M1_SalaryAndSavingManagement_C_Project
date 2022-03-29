@@ -15,3 +15,8 @@
 |  L_01       |--------------------------------------------------------------|  ------------|-------------|----------------|Requirement based |
 |  L_02       |--------------------------------------------------------------|  ------------|-------------|----------------|Scenario based    |
 |  L_03       |--------------------------------------------------------------|  ------------|-------------|----------------|Boundary based    |
+
+## TEST CASE
+![Screenshot (14)](https://user-images.githubusercontent.com/101577287/160535861-f407549b-92e0-4bfc-bbe1-fcfe3c1e71c1.png)
+![Screenshot (15)](https://user-images.githubusercontent.com/101577287/160535869-261c6bfb-796f-4214-b367-bafe92146184.png)
+![Screenshot (16)](https://user-images.githubusercontent.com/101577287/160535873-870e89d6-04e6-4910-b2ae-de227dde3d22.png)
